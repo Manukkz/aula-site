@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechFuture</title>
+</head>
+<body>
+    <div class="nav">
+        <h1>TechFuture Summit</h1>
+        <h2>uma startup de tecnologia</h2>
+    </div>
+    
+    <div class="container event-info">
+        <h3>Informações do Evento</h3>
+        <div class="info-row">
+            <h2>UNIJORGE</h2>
+            <small>Local do Evento</small> 
+        </div>
+        <div class="info-row">
+            <h3>27/03/2025</h3>
+            <small>Data</small>
+        </div>
+        <div class="info-row">
+            <p>
+                Um encontro de desenvolvedores e designer para discutir tendências em tecnologia e design. O objetivo da página é atrair participantes e fornecer informações claras e visualmente atraentes sobre o evento, como, local, palestrantes e inscrições.
+            </p>
+            <small>Resumo</small>
+        </div>
+    </div>
+
+    <div class="container speakers-info">
+        <h3>Palestrantes</h3>
+        <ul>
+            <li>
+                <div class="speaker-photo">
+                    <img 
+                        src="static/steve.jpg" 
+                        alt="steve-jobs"
+                        class="speaker-photo"
+                    />
+                </div>
+                <strong>Steve Jobs</strong>
+                <p>Inovador e CEO da Apple, revolucionário nas interfaces homem máquina e a forma que vemos sistemas computacionais.</p>
+            </li>
+            <li>
+                <div class="speaker-photo">
+                    <img 
+                        src="static/alan.jpg" 
+                        alt="alan-turing"
+                    />
+                </div>
+                <strong>Alan Turing</strong>
+                <p>Matemático e cientista responsável pela primeira construção capaz de computar chamada de Máquina de Turing.</p>
+            </li>
+            <li>
+                <div class="speaker-photo">
+                    <img 
+                        src="static/terry.jpg" 
+                        alt="terry-a-davis"
+                        class="speaker-photo"    
+                    />
+                </div>
+
+                <strong>Terry A. Davis</strong>
+                <p>Gênio trágico, criador do controverso e confuso TempleOS.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container form">
+        <h3>Formulário de Inscrição</h3>
+        <form>
+            <div class="section">
+                <h4>Dados de Contato</h4>
+                <div class="section-row">
+                    <label>Nome Completo*</label>
+                    <input type="text" required/>
+                    <small class="required-info">*Campo Obrigatório</small>
+                </div>
+                <div class="section-row">
+                    <label>E-mail de Contato*</label>
+                    <input type="email" required/>
+                    <small class="required-info">*Campo Obrigatório</small>
+                </div>
+            </div>
+
+            <div class="section">
+                <h4>Tipo de Ingresso</h4>
+                <div class="section-row">
+                    <div class="section-col">
+                        <input type="radio" name="ticket"/>
+                        <label>Presencial</label>
+                    </div>
+                    <div class="section-col">
+                        <input type="radio" name="ticket"/>
+                        <label>Virtual</label>
+                    </div>
+                </div>
+         
+            </div>
+
+            <div class="section">
+                <h4>Termos de Compromisso</h4>
+                <div class="section-row">
+                    <div class="section-col">
+                        <input type="checkbox" required/>
+                        <label>Sim, eu aceito os termos de compromissos.*</label>
+                    </div>
+                    <small class="required-info">*Campo Obrigatório</small>
+                </div>
+            </div>
+
+            <div class="section-end">
+                <input type="reset" />
+                <input type="submit"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
